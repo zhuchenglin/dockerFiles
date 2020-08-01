@@ -1,7 +1,7 @@
 # go的基础环境
 written by zhuchenglin
 ### 更换go代码包
-1. 从https://studygolang.com/dl网站找到下载对应的代码包的下载路径 
+1. 从[https://studygolang.com/dl](https://studygolang.com/dl)网站找到下载对应的代码包的下载路径 
 2. 修改Dockerfile 中 wget的 下载路径 和 tar的 文件的路径
 
 #####运行
