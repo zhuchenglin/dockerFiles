@@ -1,8 +1,8 @@
 # go的基础环境
 written by zhuchenglin
 ### 更换go代码包
-1. 从https://studygolang.com/dl网站下载对应的代码包 
-2. 修改Dockerfile 中 wget 和 tar 路径
+1. 从https://studygolang.com/dl网站找到下载对应的代码包的下载路径 
+2. 修改Dockerfile 中 wget的 下载路径 和 tar的 文件的路径
 
 #####运行
 1. 进入/DockerFiles/goBaseEnv目录
