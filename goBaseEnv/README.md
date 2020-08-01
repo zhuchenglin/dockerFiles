@@ -4,7 +4,7 @@ written by zhuchenglin
 1. 从[https://studygolang.com/dl](https://studygolang.com/dl)网站找到下载对应的代码包的下载路径 
 2. 修改Dockerfile 中 wget的 下载路径 和 tar的 文件的路径
 
-#####运行
+### 运行
 1. 进入/DockerFiles/goBaseEnv目录
 2.  
 ```shell script
