@@ -14,8 +14,8 @@ RUN yum -y install vim && yum -y install wget &&\
  mkdir -p /usr/lib/golang &&\
  mkdir -p /usr/local &&\
  mkdir -p /root/gopath/src/server &&\
- wget https://dl.google.com/go/go1.10.linux-amd64.tar.gz &&\
- tar -C /usr/local -xzf go1.10.linux-amd64.tar.gz
+ wget https://dl.google.com/go/go1.12.7.linux-amd64.tar.gz &&\
+ tar -C /usr/local -xzf go1.12.7.linux-amd64.tar.gz
 
 ENV GOPATH /root/gopath
 ENV GOROOT /usr/local/go
