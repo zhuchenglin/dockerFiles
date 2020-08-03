@@ -24,3 +24,10 @@ written by zhuchenglin
     ssh root@ip:port 
     密码 123456
     ```
+5. 环境变量
+    如果远程登录后环境变量没生效，可以执行以下设置环境变量的命令
+    ```shell script
+    vim ~/.bash_profile
+    # 在PATH后面添加 :/usr/local/go/bin
+    source ~/.bash_profile
+    ```
